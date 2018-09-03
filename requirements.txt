@@ -1,5 +1,9 @@
-flask==1.0.2
+cymysql==0.9.12
+Flask==1.0.2
+Flask-Login==0.4.1
+Flask-Mail==0.9.1
 Flask-Migrate==2.2.1
 Flask-Script==2.0.6
 Flask-SQLAlchemy==2.3.2
 Flask-WTF==0.14.2
+requests==2.19.1
