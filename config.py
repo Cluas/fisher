@@ -14,7 +14,7 @@ class Config:
     MAIL_USE_SSL = True
     MAIL_SUE_TSL = False
     MAIL_USERNAME = 'admin@cluas.me'
-    MAIL_PASSWORD = '*****'
+    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') or '*****'
     MAIL_SUBJECT_PREFIX = '【鱼书】'
     MAIL_SENDER = '鱼书 Admin <admin@cluas.me>'
 
